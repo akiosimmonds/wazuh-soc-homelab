@@ -1,0 +1,28 @@
+# Local operating-system/editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*~
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*
+secrets/
+
+# Unreviewed data and raw captures stay outside published evidence
+private/
+raw-evidence/
+*.log
+*.pcap
+*.pcapng
+*.har
